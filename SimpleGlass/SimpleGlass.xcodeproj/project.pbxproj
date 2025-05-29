@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2C5212672DE6F9030088AF1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C52124D2DE6F9020088AF1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5212542DE6F9020088AF1C;
+			remoteInfo = SimpleGlass;
+		};
+		2C5212712DE6F9030088AF1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C52124D2DE6F9020088AF1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5212542DE6F9020088AF1C;
+			remoteInfo = SimpleGlass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C5212552DE6F9020088AF1C /* SimpleGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5212662DE6F9030088AF1C /* SimpleGlassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGlassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5212702DE6F9030088AF1C /* SimpleGlassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGlassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2C5212572DE6F9020088AF1C /* SimpleGlass */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleGlass;
+			sourceTree = "<group>";
+		};
+		2C5212692DE6F9030088AF1C /* SimpleGlassTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleGlassTests;
+			sourceTree = "<group>";
+		};
+		2C5212732DE6F9030088AF1C /* SimpleGlassUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleGlassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5212522DE6F9020088AF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5212632DE6F9030088AF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C52126D2DE6F9030088AF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C52124C2DE6F9020088AF1C = {
+			isa = PBXGroup;
+			children = (
+				2C5212572DE6F9020088AF1C /* SimpleGlass */,
+				2C5212692DE6F9030088AF1C /* SimpleGlassTests */,
+				2C5212732DE6F9030088AF1C /* SimpleGlassUITests */,
+				2C5212562DE6F9020088AF1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5212562DE6F9020088AF1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5212552DE6F9020088AF1C /* SimpleGlass.app */,
+				2C5212662DE6F9030088AF1C /* SimpleGlassTests.xctest */,
+				2C5212702DE6F9030088AF1C /* SimpleGlassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5212542DE6F9020088AF1C /* SimpleGlass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C52127A2DE6F9030088AF1C /* Build configuration list for PBXNativeTarget "SimpleGlass" */;
+			buildPhases = (
+				2C5212512DE6F9020088AF1C /* Sources */,
+				2C5212522DE6F9020088AF1C /* Frameworks */,
+				2C5212532DE6F9020088AF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2C5212572DE6F9020088AF1C /* SimpleGlass */,
+			);
+			name = SimpleGlass;
+			packageProductDependencies = (
+			);
+			productName = SimpleGlass;
+			productReference = 2C5212552DE6F9020088AF1C /* SimpleGlass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C5212652DE6F9030088AF1C /* SimpleGlassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C52127D2DE6F9030088AF1C /* Build configuration list for PBXNativeTarget "SimpleGlassTests" */;
+			buildPhases = (
+				2C5212622DE6F9030088AF1C /* Sources */,
+				2C5212632DE6F9030088AF1C /* Frameworks */,
+				2C5212642DE6F9030088AF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5212682DE6F9030088AF1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C5212692DE6F9030088AF1C /* SimpleGlassTests */,
+			);
+			name = SimpleGlassTests;
+			packageProductDependencies = (
+			);
+			productName = SimpleGlassTests;
+			productReference = 2C5212662DE6F9030088AF1C /* SimpleGlassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C52126F2DE6F9030088AF1C /* SimpleGlassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5212802DE6F9030088AF1C /* Build configuration list for PBXNativeTarget "SimpleGlassUITests" */;
+			buildPhases = (
+				2C52126C2DE6F9030088AF1C /* Sources */,
+				2C52126D2DE6F9030088AF1C /* Frameworks */,
+				2C52126E2DE6F9030088AF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5212722DE6F9030088AF1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C5212732DE6F9030088AF1C /* SimpleGlassUITests */,
+			);
+			name = SimpleGlassUITests;
+			packageProductDependencies = (
+			);
+			productName = SimpleGlassUITests;
+			productReference = 2C5212702DE6F9030088AF1C /* SimpleGlassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C52124D2DE6F9020088AF1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2C5212542DE6F9020088AF1C = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2C5212652DE6F9030088AF1C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2C5212542DE6F9020088AF1C;
+					};
+					2C52126F2DE6F9030088AF1C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2C5212542DE6F9020088AF1C;
+					};
+				};
+			};
+			buildConfigurationList = 2C5212502DE6F9020088AF1C /* Build configuration list for PBXProject "SimpleGlass" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C52124C2DE6F9020088AF1C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C5212562DE6F9020088AF1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5212542DE6F9020088AF1C /* SimpleGlass */,
+				2C5212652DE6F9030088AF1C /* SimpleGlassTests */,
+				2C52126F2DE6F9030088AF1C /* SimpleGlassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5212532DE6F9020088AF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5212642DE6F9030088AF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C52126E2DE6F9030088AF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5212512DE6F9020088AF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5212622DE6F9030088AF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C52126C2DE6F9030088AF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C5212682DE6F9030088AF1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5212542DE6F9020088AF1C /* SimpleGlass */;
+			targetProxy = 2C5212672DE6F9030088AF1C /* PBXContainerItemProxy */;
+		};
+		2C5212722DE6F9030088AF1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5212542DE6F9020088AF1C /* SimpleGlass */;
+			targetProxy = 2C5212712DE6F9030088AF1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C5212782DE6F9030088AF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C5212792DE6F9030088AF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2C52127B2DE6F9030088AF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleGlass/SimpleGlass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleGlass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linearv.SimpleGlass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C52127C2DE6F9030088AF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleGlass/SimpleGlass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleGlass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linearv.SimpleGlass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2C52127E2DE6F9030088AF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linearv.SimpleGlassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGlass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleGlass";
+			};
+			name = Debug;
+		};
+		2C52127F2DE6F9030088AF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linearv.SimpleGlassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGlass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleGlass";
+			};
+			name = Release;
+		};
+		2C5212812DE6F9030088AF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linearv.SimpleGlassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimpleGlass;
+			};
+			name = Debug;
+		};
+		2C5212822DE6F9030088AF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linearv.SimpleGlassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimpleGlass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5212502DE6F9020088AF1C /* Build configuration list for PBXProject "SimpleGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5212782DE6F9030088AF1C /* Debug */,
+				2C5212792DE6F9030088AF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C52127A2DE6F9030088AF1C /* Build configuration list for PBXNativeTarget "SimpleGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C52127B2DE6F9030088AF1C /* Debug */,
+				2C52127C2DE6F9030088AF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C52127D2DE6F9030088AF1C /* Build configuration list for PBXNativeTarget "SimpleGlassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C52127E2DE6F9030088AF1C /* Debug */,
+				2C52127F2DE6F9030088AF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5212802DE6F9030088AF1C /* Build configuration list for PBXNativeTarget "SimpleGlassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5212812DE6F9030088AF1C /* Debug */,
+				2C5212822DE6F9030088AF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C52124D2DE6F9020088AF1C /* Project object */;
+}
